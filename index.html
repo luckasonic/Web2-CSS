@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 <html>
+
 <head lang="uk">
-    <meta charset="UTF-8">
-    <title>My Page</title>
+	<meta charset="UTF-8">
+	<title>My Page</title>
 
 
-    <link rel="stylesheet" type="text/css" href="main.css" />
+	<link rel="stylesheet" type="text/css" href="main.css" />
 </head>
+
 <body>
-	<span class="product-item">
-		Apple
-		<span class="amount">4</span>
-	</span>
+	<div class="product-picker">
+		<form class="adder">
+			<input type="text" class="add-input" placeholder="Назва товару">
+			<button type="submit" class="add-button">Додати</button>
+		</form>
+		<span class="product">
+			<div class="name1" contenteditable="false">
+				Помідори
+			</div>
+			<div class="status">
+				<button class="num">2</button>
+				<button class="bought" data-tooltip="stats">Не куплено</button>
+				
+			</div>
+
+		</span>
+		
+
+
+	</div>
 </body>
+
 </html>
