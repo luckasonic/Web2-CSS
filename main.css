@@ -16,7 +16,6 @@ body {
     max-width: 1200px;
     gap: 20px;
     margin-top: 20px;
-    flex-wrap: wrap; 
 }
 
 .product-picker, .summary {
@@ -38,6 +37,7 @@ body {
 .adder {
     margin-top: 12px;
     display: flex;
+    align-content: center;
     width: 100%;
     border-bottom: #f0f0f0 1px solid;
     padding-bottom: 25px;
@@ -260,7 +260,7 @@ body {
     transform: translateX(-50%);
     opacity: 0;
     transition: all 0.5s ease;
-    bottom: calc(120%);
+    bottom: 120%;
     left: 50%;
     content: attr(data-tooltip);
     visibility: hidden;
@@ -268,7 +268,7 @@ body {
     background-color: #AF01DA;
     color: white;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: normal;
     border-radius: 5px;
     padding: 5px;
